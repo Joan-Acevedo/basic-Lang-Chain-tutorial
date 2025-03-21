@@ -11,7 +11,6 @@ load_dotenv()
 
 
 # Verificar si OPENAI_API_KEY está configurada
-print("API Key cargada:", os.getenv("OPENAI_API_KEY"))
 
 if not os.environ.get("OPENAI_API_KEY"):
     print("No se encontró la API Key en el entorno. Verifica tu archivo .env")
